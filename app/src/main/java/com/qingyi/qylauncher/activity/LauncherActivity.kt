@@ -1,9 +1,9 @@
-package com.qingyi.qylauncher
+package com.qingyi.qylauncher.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.qingyi.qylauncher.R
 
-class LauncherActivity : AppCompatActivity() {
+class LauncherActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
